@@ -38,5 +38,5 @@ size表明管理内存的总单元数目，longest作为二叉树的节点标记
 输入参数为分配器指针及内存地址索引。之后从最底层节点向上寻找longest为0的节点，即当初分配块所适配的大小和位置，将longest恢复到原来满状态的值。继续向上回溯，检查是否存在可以合并的块，依据左右子树的longest值相加是否等于原空闲状态下longest的大小，检测能否进行合并
 
 ## TODO：
-- [_] test function
-- [_] error handling
+- [ ] test function
+- [ ] error handling
