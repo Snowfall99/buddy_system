@@ -40,3 +40,8 @@ size表明管理内存的总单元数目，longest作为二叉树的节点标记
 ## TODO：
 - [ ] test function
 - [ ] error handling
+
+## Log:  
+**2020.10.1**  
+完成了```main.c```,可以提供简单的观察测试方法,不过可能存在一些bug  
+大概率是最后一次更新
